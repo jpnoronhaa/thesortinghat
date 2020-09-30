@@ -1690,6 +1690,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-github-button@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@types/react-github-button/-/react-github-button-0.1.0.tgz#8a05bdd572fe46a9bfa83464c36ca85037e9bb63"
+  integrity sha512-4mgm7gJ+RwXqcAmZ8VfQupyKrXOdkwhYvBJ8HWH0+QNngKwmXMc2b8t4LUt6h1jxpSNaLiLuIfEdG5vcZvOFxA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-native@*":
   version "0.63.23"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.63.23.tgz#bc4617e5bbb1ac28cb5dbf7ad09cc49a2cce914c"
