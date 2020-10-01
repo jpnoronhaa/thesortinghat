@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Background, Content } from './styles';
 
 import title from '../../assets/title.png';
