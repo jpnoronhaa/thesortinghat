@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-import { Container, Background, Content } from './styles';
+import { Container, Background, Content, NavLink } from './styles';
 
 import title from '../../assets/title.png';
 import ravenclaw from '../../assets/ravenclaw.jpg';
@@ -45,7 +44,7 @@ const Sorting: React.FC = () => {
           What house your going to be?
         </button>
         <img src={selectHouse()} alt={house} />
-        <Link to={`/house/${house}`}>See more about your house!</Link>
+        <NavLink to={`/house/${house}`}>See more about your house!</NavLink>
         <a href="https://github.com/japanoronha">
           See more on my GitHub profile
         </a>
