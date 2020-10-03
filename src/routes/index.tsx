@@ -7,7 +7,7 @@ import House from '../pages/House';
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Sorting} />
-    <Route path="/house" component={House} />
+    <Route path="/house/:houseName" component={House} />
   </Switch>
 );
 
