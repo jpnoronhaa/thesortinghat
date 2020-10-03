@@ -41,13 +41,11 @@ const Sorting: React.FC = () => {
               });
           }}
         >
-          What house your going to be?
+          Which house would you be in?
         </button>
         <img src={selectHouse()} alt={house} />
         <NavLink to={`/house/${house}`}>See more about your house!</NavLink>
-        <a href="https://github.com/japanoronha">
-          See more on my GitHub profile
-        </a>
+        <a href="https://github.com/japanoronha">My GitHub profile</a>
       </Content>
       <Background />
     </Container>
